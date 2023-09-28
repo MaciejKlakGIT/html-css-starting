@@ -1,0 +1,47 @@
+body {
+  border: 5px solid black;
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+header img {
+  width: 300px;
+  height: 300px;
+}
+.price {
+  font-weight: bold;
+  font-size: 21px;
+}
+.delivery {
+  font-weight: bold;
+  color: grey;
+}
+a:link {
+  text-color: #444;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+ul {
+  list-style-type: square;
+}
