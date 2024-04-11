@@ -84,3 +84,64 @@ li {
 .product-details {
   margin-top: 15px;
 }
+h1 {
+  position: relative;
+}
+h1::after {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  bottom: -19px;
+  left: -32px;
+  position: absolute;
+  font-size: 12px;
+  font-style: bold;
+  padding: 5px 15px;
+  letter-spacing: 3px;
+}
+.few-blocks {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+.block1 {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  float: left;
+  margin-right: 15px;
+}
+.block2 {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  float: left;
+  margin-right: 15px;
+}
+.block3 {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  float: left;
+  margin-right: 15px;
+}
+.block4 {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  float: left;
+  margin-right: 15px;
+}
+.block5 {
+  width: 20px;
+  height: 20px;
+  background-color: greenyellow;
+  float: left;
+  margin-right: 15px;
+}
+.block6 {
+  width: 20px;
+  height: 20px;
+  background-color: brown;
+  float: left;
+}
