@@ -43,11 +43,21 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 30px;
+        gap: 10px;
       }
       .el {
-        /* margin-right: 30px; */
-        /* zamiast tego mozemu uzyc "gap: np30px;" i doda tez margin*/
+        /* margin-right: 30px;  zamiast tego mozemu uzyc "gap: np30px;" i doda tez margin*/
+        /* DEFAULT
+        flex-grow: 0; robi tak by wszystkie elementy kontenera lub jeden wypełnił na długosc cala zawartosc ale lepiej uzywac samego flex:
+        flex-shrink: 1; robi tak by wszystkie elementy kontenera lub jeden wypełnił na wysokosc cala zawartosc
+        flex-basis: auto; */
+
+        /* flex-basis: 200px; */
+        /* flex-shrink: 0; */
+        /*flex: 0 0 200px;  jedna komenda flex odpowiada za te 3 */
+
+        /* flex-grow: 1; */
+        flex: 1;
       }
       .el--1 {
         align-self: flex-start;
