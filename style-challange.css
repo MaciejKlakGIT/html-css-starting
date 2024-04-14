@@ -152,11 +152,11 @@ h1::after {
 }
 .center-items {
   display: flex;
+  justify-content: space-between;
 }
 .product-img {
   display: flex;
   flex: 0 0 250px;
-  margin-right: 40px;
 }
 .price-two {
   display: flex;
@@ -206,14 +206,13 @@ h1::after {
 }
 .left-content {
   gap: 20px;
-  flex: 0 0 300px;
+  flex: 0 0 243px;
   align-items: flex-start;
-  margin-right: 20px;
 }
 .right-content {
   align-items: flex-start;
   gap: 20px;
-  width: 250px;
+  width: 243px;
 }
 .product-details {
   margin-top: 20px;
