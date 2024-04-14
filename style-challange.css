@@ -19,21 +19,16 @@ h1 {
 .product-img {
   width: 250px;
   height: 250px;
-  float: left;
 }
 .price {
   font-weight: bold;
   font-size: 21px;
-  float: left;
 }
 .delivery {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
   color: #777;
-  margin-bottom: 20px;
-  float: right;
-  margin-top: 8px;
 }
 a:link {
   text-color: #444;
@@ -77,9 +72,6 @@ li {
   margin-bottom: 7px;
   clear: both;
 }
-.product-details {
-  margin-top: 15px;
-}
 h1 {
   position: relative;
 }
@@ -95,7 +87,7 @@ h1::after {
   padding: 5px 15px;
   letter-spacing: 3px;
 }
-.few-blocks {
+/* .few-blocks {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
@@ -152,4 +144,77 @@ h1::after {
   width: 243px;
   float: right;
   padding-top: 10px;
+}
+ */
+.header-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.center-items {
+  display: flex;
+}
+.product-img {
+  display: flex;
+  flex: 0 0 250px;
+  margin-right: 40px;
+}
+.price-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 225px;
+}
+.information {
+  width: 250px;
+  align-self: stretch;
+}
+.few-blocks {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+.block-black {
+  display: flex;
+  background-color: black;
+  flex: 0 0 22px;
+}
+.block-blue {
+  display: flex;
+  background-color: blue;
+  flex: 0 0 22px;
+}
+.block-red {
+  display: flex;
+  background-color: red;
+  flex: 0 0 22px;
+}
+.block-yellow {
+  display: flex;
+  background-color: yellow;
+  flex: 0 0 22px;
+}
+.block-green {
+  display: flex;
+  background-color: green;
+  flex: 0 0 22px;
+}
+.block-brown {
+  display: flex;
+  background-color: brown;
+  flex: 0 0 22px;
+}
+.left-content {
+  gap: 20px;
+  flex: 0 0 300px;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+.right-content {
+  align-items: flex-start;
+  gap: 20px;
+  width: 250px;
+}
+.product-details {
+  margin-top: 20px;
 }
