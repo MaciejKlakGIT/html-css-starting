@@ -36,6 +36,7 @@
       body {
         font-family: "Inter", sans-serif;
         color: #343a40;
+        line-height: 1;
       }
 
       .accordion {
@@ -44,14 +45,32 @@
       }
       .item {
       }
-      .number {
-      }
+      .number,
       .text {
+        font-size: 24px;
+        font-weight: 500;
+        color: #087f5b;
       }
       .icon {
+        width: 24px;
+        height: 24px;
+        stroke: #087f5b;
       }
       .hidden-box {
       }
+      .hidden-box p {
+        line-height: 1.6;
+        margin-bottom: 24px;
+      }
+      .hidden-box ul {
+        color: #868e96;
+        margin-left: 20px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      
     </style>
   </head>
   <body>
@@ -74,11 +93,12 @@
           />
         </svg>
         <div class="hidden-box">
+          <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
           pariatur ducimus totam reiciendis consectetur. Numquam perferendis
           rerum ab tempore quas aperiam ea, blanditiis consequuntur repudiandae.
           Animi doloribus quo quod quasi.
-        </div>
+        </p>
         <ul>
           <li>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.Quae, at
